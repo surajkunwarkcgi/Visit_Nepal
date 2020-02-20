@@ -1,0 +1,131 @@
+@media (min-width:768px) and (max-width:1250px){
+	#about-us iframe {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 768px) {
+	.navbar-nav > li > a {
+	    padding-top: 1.2rem;
+	    padding-bottom: 1.2rem;
+	    padding-right: 12px;
+	    padding-left: 12px;
+	}
+	.navbar-nav{
+		margin-left:-12px;
+	}
+	#banner .carousel-inner img {
+		height: 470px;
+	}
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+	.navbar-nav li {
+   		 font-size: 0.7rem;
+	}
+}
+
+@media (min-width:768px) and (max-width:960px){
+#about-us iframe {
+	margin-left: -60px;
+    width: 285px;
+}
+#explore-more {
+	padding: 45px 15px;
+}
+#about-us .col-bg {
+	padding: 80px 40px 80px 30px;
+}
+#most-popular .link {
+	font-size: 11px;
+}
+#featured-desti .content-wrap {
+	height: 260px;
+}
+#featured-desti .text-wrap h3 {
+	font-size: 16px;
+}
+#blog-sec .event-wrap {
+	padding: 95px 20px;
+}
+#blog-sec .event-content .event-text, #main-footer h4 {
+	font-size: 20px;
+}
+#blog-sec .event-content a {
+	font-size: 12px;
+}
+#blog-sec .event-content .date {
+	font-size: 16px;
+}
+#services .service-wrap h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+#services .service-wrap p {
+	margin-bottom: 16px;
+}
+#main-footer {
+	font-size: 13px;
+}
+#banner .carousel-inner img {
+	height: 400px;
+}
+}
+
+
+@media (max-width:767px){
+#btn-rollover{
+    display: block;
+    position: absolute;
+	right: 10px;
+	top: 51px;
+}
+#main-header{
+    position: absolute;
+}
+.navbar-nav{
+	display:none;
+}
+#about-us iframe {
+	margin-left: 0;
+    width: 100%;
+}
+#about-us .col-bg {
+	padding: 15px;
+}
+#explore-more .explore-img {
+	position: static;
+	width: 100%;
+	margin-top: 25px;
+}
+#blog-sec .event-wrap {
+	position: static;
+	top: 0;
+    width: 100%;
+    padding: 35px 15px;
+}
+#blog-sec .blog-con {
+	padding: 35px 15px;
+}
+#explore-more {
+	padding: 35px 15px;
+}
+#featured-desti {
+	padding: 35px 0;
+}
+#most-popular .multi-img {
+	height: 300px;
+}
+#main-footer .about-us {
+	margin-bottom: 25px;
+}
+#banner .carousel-inner img {
+	height: 400px;
+}
+}
+
+@media (max-width:430px){
+#banner .carousel-inner img {
+	height: 255px;
+}
+}
